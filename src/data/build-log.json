@@ -1,0 +1,120 @@
+[
+  {
+    "id": "ABOU-D15BF4",
+    "title": "Project context",
+    "pr": "https://github.com/Dalaqa25/about-giorgi/pull/1",
+    "moves": [
+      {
+        "status": "backlog",
+        "time": "2026-11-27T06:30:10.553Z"
+      },
+      {
+        "status": "running",
+        "time": "2026-11-27T06:51:07.863Z"
+      },
+      {
+        "status": "review",
+        "time": "2026-11-27T06:52:09.971Z"
+      },
+      {
+        "status": "done",
+        "time": "2026-11-27T06:59:26.769Z"
+      }
+    ]
+  },
+  {
+    "id": "ABOU-60C368",
+    "title": "Scaffold",
+    "pr": "https://github.com/Dalaqa25/about-giorgi/pull/2",
+    "moves": [
+      {
+        "status": "backlog",
+        "time": "2026-11-27T06:54:26.545Z"
+      },
+      {
+        "status": "running",
+        "time": "2026-11-27T07:07:48.129Z"
+      },
+      {
+        "status": "review",
+        "time": "2026-11-27T07:10:10.803Z"
+      },
+      {
+        "status": "done",
+        "time": "2026-11-27T07:40:05.964Z"
+      }
+    ]
+  },
+  {
+    "id": "ABOU-298E1C",
+    "title": "Hero + time zone",
+    "pr": "https://github.com/Dalaqa25/about-giorgi/pull/3",
+    "moves": [
+      {
+        "status": "backlog",
+        "time": "2026-11-27T08:32:16.269Z"
+      },
+      {
+        "status": "running",
+        "time": "2026-11-27T08:35:09.606Z"
+      },
+      {
+        "status": "review",
+        "time": "2026-11-27T08:39:54.729Z"
+      },
+      {
+        "status": "done",
+        "time": "2026-11-27T08:45:05.222Z"
+      }
+    ]
+  },
+  {
+    "id": "ABOU-96B452",
+    "title": "Shipped stories",
+    "pr": "https://github.com/Dalaqa25/about-giorgi/pull/4",
+    "moves": [
+      {
+        "status": "backlog",
+        "time": "2026-11-27T08:38:08.348Z"
+      },
+      {
+        "status": "running",
+        "time": "2026-11-27T08:43:03.028Z"
+      },
+      {
+        "status": "review",
+        "time": "2026-11-27T08:47:56.486Z"
+      },
+      {
+        "status": "done",
+        "time": "2026-11-27T08:50:30.473Z"
+      }
+    ]
+  },
+  {
+    "id": "ABOU-888EBE",
+    "title": "Build replay",
+    "pr": null,
+    "moves": [
+      {
+        "status": "backlog",
+        "time": "2026-11-27T08:46:56.097Z"
+      },
+      {
+        "status": "running",
+        "time": "2026-11-27T08:50:36.515Z"
+      }
+    ]
+  },
+  {
+    "id": "ABOU-28BE62",
+    "title": "Why, Life, Contact",
+    "pr": null,
+    "moves": [
+      {
+        "status": "backlog",
+        "time": "2026-11-27T08:50:47.033Z"
+      }
+    ]
+  }
+]

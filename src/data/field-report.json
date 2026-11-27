@@ -1,0 +1,20 @@
+{
+  "status": "in_progress",
+  "label": "4 parallel tickets · ModelGrow",
+  "lanes": [
+    { "name": "ticket A", "task": "dev server" },
+    { "name": "ticket B", "task": "dev server" },
+    { "name": "ticket C", "task": "e2e tests" },
+    { "name": "ticket D", "task": "migration" }
+  ],
+  "before": {
+    "caption": "Every worktree shared .env, port 3000 and one Supabase database. My own prompts told agents \"do not run a dev server\" just to survive.",
+    "results": [
+      { "width": 100, "ok": true, "text": "ok" },
+      { "width": 38, "ok": false, "text": "EADDRINUSE" },
+      { "width": 22, "ok": false, "text": "port clash" },
+      { "width": 55, "ok": false, "text": "shared DB" }
+    ]
+  },
+  "after": null
+}

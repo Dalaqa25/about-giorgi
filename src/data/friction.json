@@ -1,0 +1,32 @@
+[
+  {
+    "time": "10:52",
+    "title": "\"Plan & approve first\" did not wait for me",
+    "happened": "I ticked it, the agent went straight to a PR.",
+    "fix": "Block Build until the plan has a human approval when that step is on."
+  },
+  {
+    "time": "11:37",
+    "title": "\"Worker still finishing\" on a finished Worker",
+    "happened": "The desktop app warned me 28 minutes after the run ended. The web board had it right.",
+    "fix": "Read the Worker state from the same source the web board uses."
+  },
+  {
+    "time": "11:02",
+    "title": "Browser tickets default to Cloud",
+    "happened": "A ticket made in the browser ran on Cloud, and the browser cannot switch it to my machine.",
+    "fix": "Default new tickets to the last machine I used, and list my paired desktop in the browser."
+  },
+  {
+    "time": "10:30",
+    "title": "My ticket titles get rewritten",
+    "happened": "I typed a title, the card showed a different one.",
+    "fix": "Keep my title, offer the rewrite as a suggestion."
+  },
+  {
+    "time": "10:25",
+    "title": "Docs and app disagree",
+    "happened": "The docs describe Plan and Build with Cmd+Y, the app shows workflows.",
+    "fix": "Update the ticket docs to the workflow picker."
+  }
+]
