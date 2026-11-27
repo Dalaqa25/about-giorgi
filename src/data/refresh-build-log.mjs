@@ -14,6 +14,8 @@ const SHORT = {
   "ABOU-96B452": "Shipped stories",
   "ABOU-888EBE": "Build replay",
   "ABOU-28BE62": "Why, Life, Contact",
+  "ABOU-AE63D6": "Review line fix",
+  "ABOU-A0F720": "Build log refresh",
 };
 
 const list = run("tickets", "list", "--all", "--json").data.items;
