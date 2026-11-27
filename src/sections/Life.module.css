@@ -1,0 +1,68 @@
+.head {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.head h2 {
+  margin: 0;
+  font-size: 2.375rem;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.no {
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+.life p {
+  color: var(--soft);
+  margin: 0 0 1rem;
+}
+
+.pols {
+  margin: 1.75rem 0 0;
+  padding: 0 0 0 0.5rem;
+}
+
+.pol {
+  position: relative;
+  width: 240px;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 10px 40px;
+  background: #efe6dc;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transform: rotate(-4deg);
+  transition: transform 0.3s;
+}
+
+.pol:hover {
+  transform: rotate(-1deg) scale(1.03);
+}
+
+.pol img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  filter: sepia(0.12) contrast(1.02);
+}
+
+.pol figcaption {
+  position: absolute;
+  bottom: 6px;
+  left: 12px;
+  font-family: var(--font-hand), cursive;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #3a322c;
+}
+
+@media (max-width: 600px) {
+  .head h2 {
+    font-size: 1.9375rem;
+  }
+}
