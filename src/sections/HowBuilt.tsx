@@ -13,8 +13,8 @@ export default function HowBuilt() {
         </h2>
       </div>
       <p className={styles.lede}>
-        On a Fredrin board. Project context first, then parallel tickets. I
-        reviewed every diff.
+        On a Fredrin board. Project context first, then parallel tickets.
+        Nothing merged on its own, every PR waited for my click.
       </p>
       <Reveal>
         <Board />
