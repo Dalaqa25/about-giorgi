@@ -15,9 +15,10 @@ A one page About Me site for Giorgi Dalakishvili, AI Solution Engineer in Tbilis
 
 ## Layout
 
-- Each section is its own file in `src/sections/`: Hero, Shipped, HowBuilt, Life, Contact.
+- Each section is its own file in `src/sections/`: Hero, Shipped, HowBuilt, FieldReport, Why, Life, Contact.
 - `src/app/page.tsx` only composes the sections. It holds no content.
 - A ticket edits only its own section, so parallel tickets do not conflict.
+- Section styles live in that section's own CSS module.
 
 ## Look
 
